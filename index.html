@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enama Innocent — Data Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* ============================================
+       STYLES.CSS — INTÉGRÉ
+    ============================================ */
+   
+  </style>
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">EI.</div>
+  <ul class="nav-links">
+    <li><a href="#accueil">Accueil</a></li>
+    <li><a href="#apropos">À propos</a></li>
+    <li><a href="#projets">Projets</a></li>
+    <li><a href="#technologies">Technologies</a></li>
+    <li><a href="#parcours">Parcours</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ACCUEIL -->
+<section id="accueil">
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-tag"><span></span> Disponible pour alternance / stage</div>
+      <h1 class="hero-name">Enama<br><span class="highlight">Innocent</span></h1>
+      <p class="hero-role">// Data Engineer &amp; Big Data</p>
+      <p class="hero-desc">Étudiant en Master Big Data &amp; IA à <strong>HETIC</strong>. Passionné par les pipelines de données, les architectures cloud et l'automatisation. Je transforme des millions de données brutes en insights actionnables.</p>
+      <div class="hero-btns">
+        <a href="#projets" class="btn-primary"><i class="fas fa-rocket"></i> Voir mes projets</a>
+        <a href="#contact" class="btn-secondary"><i class="fas fa-paper-plane"></i> Me contacter</a>
+      </div>
+    </div>
+    <div class="hero-photo-area">
+      <div class="photo-frame">
+        <div class="photo-border"></div>
+        <div class="photo-inner">
+          <img src="images/ma_photo.jpeg" alt="Enama Innocent profil" id="ma-photo"/>
+          <div class="photo-placeholder" id="photo-placeholder">
+            <i class="fas fa-user-circle"></i>
+            <p>Ajoutez votre photo ici<br><small>src="votre-photo.jpg"</small></p>
+          </div>
+        </div>
+        <div class="photo-badge">📍 France — Paris</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="name-marquee-section">
+  <div class="name-marquee-track" id="marqueeTrack"></div>
+</div>
+
+<!-- À PROPOS -->
+<section id="apropos">
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p class="section-label">01 — About</p>
+      <h2 class="section-title">À propos<br>de moi</h2>
+      <p>Je suis <strong>Data Engineer</strong> passionné par la construction de systèmes de données robustes et évolutifs. Mon parcours atypique — entre le Cameroun et la Chine — m'a forgé une <strong>adaptabilité et une vision internationale</strong> uniques.</p>
+      <p>Spécialisé en <strong>Big Data, Cloud et IA</strong>, j'ai travaillé sur des projets allant de la direction de divisions data dans des institutions gouvernementales à la création de solutions IA innovantes.</p>
+      <p>Je recherche activement une <strong>alternance ou un stage</strong> dans une équipe tech ambitieuse où je pourrai contribuer et grandir.</p>
+      <div class="about-langs">
+        <span class="lang-pill">🇫🇷 Français <span class="lang-level">— Natif</span></span>
+        <span class="lang-pill">🇬🇧 Anglais <span class="lang-level">— Pro</span></span>
+        <span class="lang-pill">🇨🇳 Chinois <span class="lang-level">— Intermédiaire</span></span>
+      </div>
+      <a href="cv.pdf/ENAMA_INNOCENT_CV_cy.pdf" download="ENAMA_INNOCENT_CV_cy.pdf" class="cv-download-btn">
+    <i class="fas fa-file-arrow-down"></i> Télécharger mon CV
+    <i class="fas fa-arrow-down" style="font-size:0.7rem;opacity:0.6;"></i>
+</a>
+      </a>
+    </div>
+    <div class="about-stats reveal">
+      <div class="stat-card"><div class="stat-number">3+</div><div class="stat-label">Années d'expérience data</div></div>
+      <div class="stat-card"><div class="stat-number">12K+</div><div class="stat-label">Records intégrés (ETL)</div></div>
+      <div class="stat-card"><div class="stat-number">3</div><div class="stat-label">Certifications cloud</div></div>
+      <div class="stat-card"><div class="stat-number">3</div><div class="stat-label">Langues maîtrisées</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJETS -->
+<section id="projets">
+  <div style="max-width:1200px;margin:0 auto;">
+    <p class="section-label">02 — Work</p>
+    <h2 class="section-title reveal">Mes projets</h2>
+    <p class="section-sub reveal">Des solutions concrètes construites avec les meilleures technologies data &amp; cloud.</p>
+  </div>
+  <div class="projects-grid" id="projects-container">
+    <div class="project-card reveal">
+      <div class="project-architecture">
+        <img src="" alt="Architecture ETL OpenWeather" id="arch-proj1"/>
+        <div class="arch-placeholder" id="ph-proj1"><i class="fas fa-diagram-project"></i><p>Ajoutez l'image d'architecture ici<br><small>src="architecture-projet1.png"</small></p></div>
+        <span class="arch-label">Architecture ETL</span>
+      </div>
+      <div class="project-body">
+        <div class="project-icon">🌤️</div>
+        <h3 class="project-title">Pipeline ETL OpenWeather</h3>
+        <p class="project-desc">Pipeline ETL automatisé orchestré avec Apache Airflow, intégrant plus de 12 250 enregistrements météo. Exploitation sous Power BI via des KPIs (pics de chaleur, vent, humidité).</p>
+        <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">Airflow</span><span class="project-tag">MySQL</span><span class="project-tag">Pandas</span><span class="project-tag">Power BI</span></div>
+        <div class="project-actions">
+          <a href="#" target="_blank" class="btn-voir-projet"><i class="fab fa-linkedin"></i> Voir le projet</a>
+          <a href="https://github.com/enamainnocent4-crypto" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-architecture">
+        <img src="" alt="Architecture Banques de Sang" id="arch-proj2"/>
+        <div class="arch-placeholder" id="ph-proj2"><i class="fas fa-diagram-project"></i><p>Ajoutez l'image d'architecture ici<br><small>src="architecture-projet2.png"</small></p></div>
+        <span class="arch-label">Architecture Real-time</span>
+      </div>
+      <div class="project-body">
+        <div class="project-icon">🩸</div>
+        <h3 class="project-title">Plateforme Banques de Sang — Cameroun</h3>
+        <p class="project-desc">Application web nationale connectant hôpitaux et donneurs de sang en temps réel, avec géolocalisation et notifications d'urgence.</p>
+        <div class="project-tags"><span class="project-tag">Django</span><span class="project-tag">Apache Kafka</span><span class="project-tag">JavaScript</span><span class="project-tag">Real-time</span></div>
+        <div class="project-actions">
+          <a href="#" target="_blank" class="btn-voir-projet"><i class="fab fa-linkedin"></i> Voir le projet</a>
+          <a href="https://github.com/enamainnocent4-crypto" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-architecture">
+        <img src="" alt="Architecture Data Scraping" id="arch-proj3"/>
+        <div class="arch-placeholder" id="ph-proj3"><i class="fas fa-diagram-project"></i><p>Ajoutez l'image d'architecture ici<br><small>src="architecture-projet3.png"</small></p></div>
+        <span class="arch-label">Pipeline Scraping</span>
+      </div>
+      <div class="project-body">
+        <div class="project-icon">🔍</div>
+        <h3 class="project-title">Data Scraping &amp; Analyse du Marché de l'Emploi</h3>
+        <p class="project-desc">Pipeline de collecte automatisée d'offres d'emploi (BeautifulSoup + Selenium), nettoyage et analyse exploratoire — KPIs: salaire moyen par ville, répartition géographique.</p>
+        <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">Selenium</span><span class="project-tag">BeautifulSoup</span><span class="project-tag">Pandas</span></div>
+        <div class="project-actions">
+          <a href="#" target="_blank" class="btn-voir-projet"><i class="fab fa-linkedin"></i> Voir le projet</a>
+          <a href="https://github.com/enamainnocent4-crypto" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-architecture">
+        <img src="" alt="Architecture NLP SQL" id="arch-proj4"/>
+        <div class="arch-placeholder" id="ph-proj4"><i class="fas fa-diagram-project"></i><p>Ajoutez l'image d'architecture ici<br><small>src="architecture-projet4.png"</small></p></div>
+        <span class="arch-label">Architecture NLP → SQL</span>
+      </div>
+      <div class="project-body">
+        <div class="project-icon">🤖</div>
+        <h3 class="project-title">Moteur NLP / Requêtes en Langage Naturel</h3>
+        <p class="project-desc">Moteur NLP → SQL permettant à des utilisateurs non-techniques d'interroger une base de données via des questions en langage naturel.</p>
+        <div class="project-tags"><span class="project-tag">NLP</span><span class="project-tag">SQL</span><span class="project-tag">Python</span><span class="project-tag">FastAPI</span></div>
+        <div class="project-actions">
+          <a href="#" target="_blank" class="btn-voir-projet"><i class="fab fa-linkedin"></i> Voir le projet</a>
+          <a href="https://github.com/enamainnocent4-crypto" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="project-card add-card">
+      <div class="add-icon"><i class="fas fa-plus"></i></div>
+      <p class="add-label">Projet à venir…<br><small style="color:var(--muted);font-size:0.72rem;">Copiez un bloc project-card pour ajouter ici</small></p>
+    </div>
+  </div>
+</section>
+
+<!-- TECHNOLOGIES -->
+<section id="technologies">
+  <div style="max-width:1100px;margin:0 auto;">
+    <p class="section-label">03 — Stack</p>
+    <h2 class="section-title reveal">Technologies</h2>
+    <p class="section-sub reveal">Mon arsenal technique pour construire des solutions data scalables.</p>
+  </div>
+  <div class="tech-categories">
+    <div class="reveal">
+      <p class="tech-category-title">⌨️ Langages de programmation</p>
+      <div class="tech-grid">
+        <div class="tech-item"><span class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/></span><span class="tech-name">Python</span></div>
+        <div class="tech-item"><span class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL"/></span><span class="tech-name">SQL</span></div>
+        <div class="tech-item"><span class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django"/></span><span class="tech-name">Django</span></div>
+        <div class="tech-item"><span class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"/></span><span class="tech-name">React</span></div>
+        <div class="tech-item"><span class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI"/></span><span class="tech-name">FastAPI</span></div>
+        <div class="tech-item"><span class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"/></span><span class="tech-name">C / C++</span></div>
+      </div>
+    </div>
+    <div class="reveal">
+      <p class="tech-category-title">☁️ Cloud &amp; DevOps</p>
+      <div class="tech-grid">
+        <div class="tech-item"><span class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"/></span><span class="tech-name">Docker</span></div>
+        <div class="tech-item"><span class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS"/></span><span class="tech-name">AWS</span></div>
+        <div class="tech-item"><span class="tech-icon">🌬️</span><span class="tech-name">Apache Airflow</span></div>
+        <div class="tech-item"><span class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"/></span><span class="tech-name">Linux</span></div>
+        <div class="tech-item"><span class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" alt="GitLab"/></span><span class="tech-name">GitLab</span></div>
+        <div class="tech-item"><span class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"/></span><span class="tech-name">GitHub</span></div>
+      </div>
+    </div>
+    <div class="reveal">
+      <p class="tech-category-title">🔥 Big Data</p>
+      <div class="tech-grid">
+        <div class="tech-item"><span class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original-wordmark.svg" alt="Spark"/></span><span class="tech-name">Apache Spark</span></div>
+        <div class="tech-item"><span class="tech-icon">📨</span><span class="tech-name">Apache Kafka</span></div>
+        <div class="tech-item"><span class="tech-icon">🐘</span><span class="tech-name">Hadoop</span></div>
+        <div class="tech-item"><span class="tech-icon">❄️</span><span class="tech-name">Snowflake</span></div>
+        <div class="tech-item"><span class="tech-icon">☁️</span><span class="tech-name">Confluent Cloud</span></div>
+        <div class="tech-item"><span class="tech-icon">🏛️</span><span class="tech-name">Cassandra</span></div>
+      </div>
+    </div>
+    <div class="reveal">
+      <p class="tech-category-title">🗄️ Bases de données</p>
+      <div class="tech-grid">
+        <div class="tech-item"><span class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"/></span><span class="tech-name">PostgreSQL</span></div>
+        <div class="tech-item"><span class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"/></span><span class="tech-name">MySQL</span></div>
+        <div class="tech-item"><span class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"/></span><span class="tech-name">MongoDB</span></div>
+        <div class="tech-item"><span class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" alt="ElasticSearch"/></span><span class="tech-name">ElasticSearch</span></div>
+      </div>
+    </div>
+    <div class="reveal">
+      <p class="tech-category-title">📊 Visualisation</p>
+      <div class="tech-grid">
+        <div class="tech-item"><span class="tech-icon">📊</span><span class="tech-name">Power BI</span></div>
+        <div class="tech-item"><span class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kibana/kibana-original.svg" alt="Kibana"/></span><span class="tech-name">Kibana</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PARCOURS ===== -->
+<section id="parcours">
+  <div class="parcours-inner">
+    <p class="section-label">04 — Journey</p>
+    <h2 class="section-title reveal">Mon parcours</h2>
+    <p class="section-sub reveal">Expériences professionnelles et formations qui m'ont construit.</p>
+
+    <div class="parcours-tabs reveal">
+      <button class="parcours-tab active" onclick="switchTab('exp')">
+        <i class="fas fa-briefcase" style="margin-right:0.5rem;"></i>Expériences
+      </button>
+      <button class="parcours-tab" onclick="switchTab('edu')">
+        <i class="fas fa-graduation-cap" style="margin-right:0.5rem;"></i>Formation
+      </button>
+    </div>
+
+    <!-- EXPÉRIENCES — LOGO GRAND EN PREMIER PLAN -->
+    <div class="parcours-section active" id="exp-section">
+      <div class="timeline">
+
+        <!-- EXP 1 — IAI Sous-directeur -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <p class="timeline-date">07/2025 — 10/2025</p>
+          <div class="timeline-card">
+            <!-- ★ LOGO EN GRAND — PREMIER PLAN ★ -->
+            <div class="company-hero-banner">
+              <img src="images/logo_IAI.png" alt="Logo IAI"
+                   onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+              <div class="company-hero-placeholder" style="display:none;">
+                <i class="fas fa-building"></i>
+                <p>logo_IAI.png</p>
+              </div>
+              <div class="banner-badges">
+                <span class="banner-location">📍 Cameroun</span>
+              </div>
+            </div>
+            <!-- Corps de la carte -->
+            <div class="timeline-card-body">
+              <span class="timeline-type type-exp">Expérience Pro</span>
+              <p class="company-name">IAI — Institut Africain d'Informatique</p>
+              <p class="timeline-role-sub">Sous-directeur Adjoint</p>
+              <div class="timeline-desc">
+                <ul>
+                  <li>Mise à jour et suivi des projets Data &amp; IA de fin d'études des étudiants</li>
+                  <li>Utilisation d'outils de gestion de projets : Trello, GitHub, Google Workspace</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- EXP 2 — IAI Consultant IT -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <p class="timeline-date">10/2024 — 06/2025</p>
+          <div class="timeline-card">
+            <div class="company-hero-banner">
+              <img src="images/logo_IAI.png" alt="Logo IAI"
+                   onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+              <div class="company-hero-placeholder" style="display:none;">
+                <i class="fas fa-building"></i>
+                <p>logo_IAI.png</p>
+              </div>
+              <div class="banner-badges">
+                <span class="banner-location">📍 Cameroun</span>
+              </div>
+            </div>
+            <div class="timeline-card-body">
+              <span class="timeline-type type-exp">Consultant IT</span>
+              <p class="company-name">IAI — Institut Africain d'Informatique</p>
+              <p class="timeline-role-sub">Consultant IT</p>
+              <div class="timeline-desc">
+                <ul>
+                  <li>Intégration d'un moteur de requêtes en langage naturel (NLP → SQL)</li>
+                  <li>Création d'une application IA de souveraineté et certification documentaire</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- EXP 3 — HUAWEI -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <p class="timeline-date">02/2024 — 06/2024</p>
+          <div class="timeline-card">
+            <div class="company-hero-banner">
+              <img src="images/logo_huawei.png" alt="Logo Huawei"
+                   onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+              <div class="company-hero-placeholder" style="display:none;">
+                <i class="fas fa-building"></i>
+                <p>logo_huawei.png</p>
+              </div>
+              <div class="banner-badges">
+                <span class="banner-location">📍 Chine</span>
+              </div>
+            </div>
+            <div class="timeline-card-body">
+              <span class="timeline-type type-stage">Stage</span>
+              <p class="company-name">Huawei Technologies</p>
+              <p class="timeline-role-sub">Stagiaire — Ingénieur Réseau &amp; Sécurité</p>
+              <div class="timeline-desc">
+                <ul>
+                  <li>Installation et configuration d'équipements Huawei (routeurs, switches, firewalls) avec eNSP</li>
+                  <li>Intégration de solutions cloud, sécurité et virtualisation</li>
+                  <li>Implémentation de politiques de sécurité (VPN, firewalls, IDS/IPS)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- EXP 4 — ART Cameroun -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <p class="timeline-date">06/2022 — 12/2022</p>
+          <div class="timeline-card">
+            <div class="company-hero-banner">
+              <img src="images/logo_ART.jpeg" alt="Logo ART Cameroun"
+                   onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+              <div class="company-hero-placeholder" style="display:none;">
+                <i class="fas fa-building"></i>
+                <p>logo_ART.jpeg</p>
+              </div>
+              <div class="banner-badges">
+                <span class="banner-location">📍 Cameroun</span>
+              </div>
+            </div>
+            <div class="timeline-card-body">
+              <span class="timeline-type type-exp">Expérience Pro</span>
+              <p class="company-name">ART-Cameroun</p>
+              <p class="timeline-role-sub">Chef de la Division Data</p>
+              <div class="timeline-desc">
+                <p>Direction de la collecte, l'analyse et le traitement des données statistiques télécom — millions de données avec Python et SQL.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- FORMATION -->
+    <div class="parcours-section" id="edu-section">
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot" style="background:var(--accent3);box-shadow:0 0 0 3px rgba(16,185,129,0.2);"></div>
+          <p class="timeline-date">2025 (en cours)</p>
+          <div class="timeline-card">
+            <div class="timeline-card-body">
+              <span class="timeline-type type-edu">Master</span>
+              <div class="timeline-header">
+                <div class="company-logo-area" id="logo-edu1">
+                  <img src="" alt="HETIC Logo" id="logo-img-edu1"/>
+                  <div class="company-logo-placeholder" id="logo-ph-edu1"><i class="fas fa-graduation-cap"></i></div>
+                </div>
+                <div class="timeline-meta">
+                  <h3 class="timeline-role">Master Big Data &amp; IA</h3>
+                  <p class="timeline-company" style="color:var(--accent3);">HETIC — France</p>
+                </div>
+              </div>
+              <div class="timeline-desc">
+                <p>Spécialisation en traitement massif de données, IA, architectures cloud et systèmes distribués.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot" style="background:var(--accent3);box-shadow:0 0 0 3px rgba(16,185,129,0.2);"></div>
+          <p class="timeline-date">2021 — 2024</p>
+          <div class="timeline-card">
+            <div class="timeline-card-body">
+              <span class="timeline-type type-edu">Licence / Ingénieur</span>
+              <div class="timeline-header">
+                <div style="display:flex;gap:0.5rem;">
+                  <div class="company-logo-area"><img src="" alt="IAI"/><div class="company-logo-placeholder"><i class="fas fa-graduation-cap"></i></div></div>
+                  <div class="company-logo-area"><img src="" alt="JSVIAT"/><div class="company-logo-placeholder"><i class="fas fa-graduation-cap"></i></div></div>
+                </div>
+                <div class="timeline-meta">
+                  <h3 class="timeline-role">Licence Génie Logiciel / Diplôme d'Ingénieur</h3>
+                  <p class="timeline-company" style="color:var(--accent3);">IAI — Cameroun + JSVIAT — Chine</p>
+                </div>
+              </div>
+              <div class="timeline-desc">
+                <p>Parcours bicéphale Cameroun-Chine dans le cadre d'une bourse. Spécialité réseaux Huawei.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:3rem;" class="reveal">
+      <p class="tech-category-title">🏆 Certifications</p>
+      <div class="certs">
+        <div class="cert-badge"><i class="fas fa-award"></i> AWS Certified Cloud Practitioner</div>
+        <div class="cert-badge"><i class="fas fa-award"></i> Databricks for Data Engineering</div>
+        <div class="cert-badge"><i class="fas fa-award"></i> Snowflake — Data Warehouse</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-wrapper">
+    <p class="section-label">05 — Contact</p>
+    <h2 class="section-title reveal">Parlons-nous 👋</h2>
+    <p class="section-sub reveal">Je suis ouvert aux opportunités d'alternance, de stage et aux collaborations tech. N'hésitez pas !</p>
+    <div class="contact-grid reveal">
+      <a href="mailto:enamainnocent4@gmail.com" class="contact-item">
+        <div class="contact-icon ci-email"><i class="fas fa-envelope"></i></div>
+        <div class="contact-info"><p class="contact-label">Email</p><p class="contact-value">enamainnocent4@gmail.com</p></div>
+        <i class="fas fa-arrow-up-right-from-square contact-arrow"></i>
+      </a>
+      <a href="https://linkedin.com/in/enama-innocent-501880327" target="_blank" class="contact-item">
+        <div class="contact-icon ci-linkedin"><i class="fab fa-linkedin-in"></i></div>
+        <div class="contact-info"><p class="contact-label">LinkedIn</p><p class="contact-value">enama-innocent</p></div>
+        <i class="fas fa-arrow-up-right-from-square contact-arrow"></i>
+      </a>
+      <a href="https://github.com/enamainnocent4-crypto" target="_blank" class="contact-item">
+        <div class="contact-icon ci-github"><i class="fab fa-github"></i></div>
+        <div class="contact-info"><p class="contact-label">GitHub</p><p class="contact-value">enamainnocent4-crypto</p></div>
+        <i class="fas fa-arrow-up-right-from-square contact-arrow"></i>
+      </a>
+      <a href="tel:+330649997520" class="contact-item">
+        <div class="contact-icon ci-phone"><i class="fas fa-phone"></i></div>
+        <div class="contact-info"><p class="contact-label">Téléphone</p><p class="contact-value">06 49 99 75 20</p></div>
+        <i class="fas fa-arrow-up-right-from-square contact-arrow"></i>
+      </a>
+    </div>
+    <div class="social-row">
+      <a href="mailto:enamainnocent4@gmail.com" class="social-btn"><i class="fas fa-envelope"></i></a>
+      <a href="https://linkedin.com/in/enama-innocent-501880327" target="_blank" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/enamainnocent4-crypto" target="_blank" class="social-btn"><i class="fab fa-github"></i></a>
+      <a href="tel:+330649997520" class="social-btn"><i class="fas fa-phone"></i></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Conçu &amp; développé par <span>Enama Innocent</span> &mdash; Data Engineer © 2025</p>
+</footer>
+
+<script>
+  // CURSOR
+  const cursor = document.getElementById('cursor');
+  document.addEventListener('mousemove', e => {
+    cursor.style.left = e.clientX - 5 + 'px';
+    cursor.style.top  = e.clientY - 5 + 'px';
+  });
+
+  // SCROLL REVEAL
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  // PHOTO HERO
+  const photoImg = document.getElementById('ma-photo');
+  const placeholder = document.getElementById('photo-placeholder');
+  if (photoImg && photoImg.getAttribute('src')) {
+    photoImg.style.display = 'block';
+    if (placeholder) placeholder.style.display = 'none';
+  }
+
+  // ARCHITECTURE IMAGES
+  ['proj1','proj2','proj3','proj4'].forEach(id => {
+    const img = document.getElementById('arch-' + id);
+    const ph  = document.getElementById('ph-' + id);
+    if (img && img.getAttribute('src')) { img.style.display = 'block'; if (ph) ph.style.display = 'none'; }
+  });
+
+  // PARCOURS TABS
+  function switchTab(tab) {
+    document.querySelectorAll('.parcours-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.parcours-section').forEach(s => s.classList.remove('active'));
+    document.getElementById(tab + '-section').classList.add('active');
+    const tabs = document.querySelectorAll('.parcours-tab');
+    if (tab === 'exp') tabs[0].classList.add('active');
+    else tabs[1].classList.add('active');
+  }
+
+  // MARQUEE
+  const track = document.getElementById('marqueeTrack');
+  const items = [
+    { text: 'Enama Innocent', filled: true }, { text: '✦', sep: true },
+    { text: 'Data Engineer', filled: false }, { text: '✦', sep: true },
+    { text: 'Big Data & IA', filled: false }, { text: '✦', sep: true },
+    { text: 'Cloud Architecture', filled: false }, { text: '✦', sep: true },
+    { text: 'Pipeline Builder', filled: false }, { text: '✦', sep: true },
+    { text: 'HETIC Paris', filled: false }, { text: '✦', sep: true },
+  ];
+  [...items, ...items].forEach(item => {
+    const span = document.createElement('span');
+    span.textContent = item.text;
+    if (item.filled) span.classList.add('filled');
+    if (item.sep) span.classList.add('sep');
+    track.appendChild(span);
+  });
+</script>
+</body>
+</html>
