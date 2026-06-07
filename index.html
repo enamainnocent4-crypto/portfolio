@@ -17,7 +17,7 @@
 
 
 <nav>
-  <div class="logo">EI. Innocent</div>
+  <div class="logo">EI</div>
   <ul class="nav-links">
     <li><a href="#accueil">Accueil</a></li>
     <li><a href="#apropos">À propos</a></li>
@@ -32,7 +32,7 @@
 </nav>
 
 <div class="mobile-drawer" id="mobileDrawer">
-  <div class="drawer-logo">EI.</div>
+  <div class="drawer-logo">EI</div>
   <nav class="drawer-nav">
     <a href="#accueil"      onclick="closeDrawer()">
       <span class="nav-icon"><i class="fas fa-house"></i></span> Accueil
@@ -60,7 +60,7 @@
       <a href="https://github.com/enamainnocent4-crypto"          target="_blank" title="GitHub">  <i class="fab fa-github"></i></a>
       <a href="tel:+330649997520"                                        title="Téléphone"><i class="fas fa-phone"></i></a>
     </div>
-    <a href="./CV.pdf/ENAMA_INNOCENT_CV_cy.pdf" download class="drawer-cv-btn">
+    <a href="./CV.pdf/ENAMA_Data_Engineer.pdf" download class="drawer-cv-btn">
       <i class="fas fa-file-arrow-down"></i> Télécharger le CV
     </a>
   </div>
@@ -72,9 +72,10 @@
   <div class="hero-glow2"></div>
   <div class="hero-content">
     <div class="hero-left">
-      <div class="hero-tag"><span></span> Disponible pour alternance / stage</div>
+      <div class="hero-tag"><span></span> Disponible pour alternance</div>
       <h1 class="hero-name">Enama<br><span class="highlight">Innocent</span></h1>
-      <p class="hero-role">// Data Engineer &amp; Big Data</p>
+      <p class="hero-role"> 
+        +Data Engineer &amp; Big Data</p>
       <p class="hero-desc">
         Étudiant en Master Big Data &amp; IA à <strong>HETIC</strong>. Étudiant en Master Big Data & Intelligence Artificielle à HETIC, je suis passionné par l’ingénierie des données, les architectures cloud distribuées et l’automatisation des pipelines à grande échelle. J’aime concevoir des systèmes capables de collecter, traiter et analyser des flux massifs de données en temps réel afin de transformer des données brutes en insights stratégiques et actionnables.
 
@@ -143,7 +144,7 @@ Spécialisé dans les technologies Big Data modernes (Spark, Kafka, Airflow, Doc
 
     <div class="project-card reveal">
       <div class="project-architecture">
-        <img src="" alt="ETL OpenWeather" id="arch-proj1"/>
+        <img src="images/ETL_openweather.jpeg" alt="ETL OpenWeather" id="arch-proj1"/>
         <div class="arch-placeholder" id="ph-proj1"><i class="fas fa-diagram-project"></i><p>src="architecture-projet1.png"</p></div>
         <span class="arch-label">Architecture ETL</span>
       </div>
@@ -161,15 +162,15 @@ Spécialisé dans les technologies Big Data modernes (Spark, Kafka, Airflow, Doc
 
     <div class="project-card reveal">
       <div class="project-architecture">
-        <img src="" alt="Banques de Sang" id="arch-proj2"/>
+        <img src="images/ETL_fraud_bancaire.jpeg" alt="Banques de Sang" id="arch-proj2"/>
         <div class="arch-placeholder" id="ph-proj2"><i class="fas fa-diagram-project"></i><p>src="architecture-projet2.png"</p></div>
         <span class="arch-label">Architecture Real-time</span>
       </div>
       <div class="project-body">
         <div class="project-icon"></div>
-        <h3 class="project-title">Plateforme Banques de Sang — Cameroun</h3>
-        <p class="project-desc">Application web nationale connectant hôpitaux et donneurs de sang en temps réel, avec géolocalisation et notifications d'urgence. Objectif : éradiquer les pénuries de sang.</p>
-        <div class="project-tags"><span class="project-tag">Django</span><span class="project-tag">Apache Kafka</span><span class="project-tag">JavaScript</span><span class="project-tag">Real-time</span></div>
+        <h3 class="project-title">Pipeline ETL temps réel des frauds bancaires</h3>
+        <p class="project-desc">Conception et déploiement d’un écosystème ETL temps réel conteneurisé sous Docker, orchestrant des flux de données avec Apache Kafka et un cluster Apache Spark pour la détection automatisée de fraudes bancaires, avec stockage des données sous PostgreSQL et Snowflake, ainsi que la création de tableaux de bord interactifs et analytiques sous Microsoft Power BI via Power Query.</p>
+        <div class="project-tags"><span class="project-tag">Snowflake</span><span class="project-tag">Apache Kafka</span><span class="project-tag">Apache Spark</span><span class="project-tag">Real-time</span><span class="project-tag">Power BI</span><span class="project-tag">PostgreSQL</span><span class="project-tag">Python</span><span class="project-tag">Docker</span></div>
         <div class="project-actions">
           <a href="#" target="_blank" class="btn-voir-projet"><i class="fab fa-linkedin"></i> Voir le projet</a>
           <a href="https://github.com/enamainnocent4-crypto" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
@@ -179,15 +180,16 @@ Spécialisé dans les technologies Big Data modernes (Spark, Kafka, Airflow, Doc
 
     <div class="project-card reveal">
       <div class="project-architecture">
-        <img src="" alt="Data Scraping" id="arch-proj3"/>
+        <img src="images/banque_sang.jpeg" alt="Data Scraping" id="arch-proj3"/>
         <div class="arch-placeholder" id="ph-proj3"><i class="fas fa-diagram-project"></i><p>src="architecture-projet3.png"</p></div>
         <span class="arch-label">Pipeline Scraping</span>
       </div>
       <div class="project-body">
-        <div class="project-icon">🔍</div>
-        <h3 class="project-title">Data Scraping &amp; Analyse du Marché de l'Emploi</h3>
-        <p class="project-desc">Pipeline de collecte automatisée d'offres d'emploi (BeautifulSoup + Selenium), nettoyage et analyse exploratoire — KPIs: salaire moyen par ville, répartition géographique.</p>
-        <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">Selenium</span><span class="project-tag">BeautifulSoup</span><span class="project-tag">Pandas</span></div>
+        <div class="project-icon"></div>
+        <h3 class="project-title">Plateforme national de gestion des banques de sang</h3>
+        <p class="project-desc">Application Web connectant Hopitaux, Donneurs et personnels de sang (docteur & médecin) en temps réel avec Géolocalisation et notification d'Urgence. Objectif: éradiquer les penuries de sang.</p>
+        
+        <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">Django</span><span class="project-tag">FastAPI</span><span class="project-tag">React</span><span class="project-tag">Kafka</span><span class="project-tag">Chart.JS</span><span class="project-tag">java script</span></div>
         <div class="project-actions">
           <a href="#" target="_blank" class="btn-voir-projet"><i class="fab fa-linkedin"></i> Voir le projet</a>
           <a href="https://github.com/enamainnocent4-crypto" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
@@ -197,15 +199,16 @@ Spécialisé dans les technologies Big Data modernes (Spark, Kafka, Airflow, Doc
 
     <div class="project-card reveal">
       <div class="project-architecture">
-        <img src="" alt="NLP SQL" id="arch-proj4"/>
+        <img src="images/telecom.png" alt="NLP SQL" id="arch-proj4"/>
         <div class="arch-placeholder" id="ph-proj4"><i class="fas fa-diagram-project"></i><p>src="architecture-projet4.png"</p></div>
-        <span class="arch-label">Architecture NLP → SQL</span>
+        <span class="arch-label">Architecture ETL Real-time</span>
       </div>
       <div class="project-body">
         <div class="project-icon"></div>
-        <h3 class="project-title">Moteur NLP / Requêtes en Langage Naturel</h3>
-        <p class="project-desc">Moteur NLP → SQL permettant à des utilisateurs non-techniques d'interroger une base de données via des questions en langage naturel.</p>
-        <div class="project-tags"><span class="project-tag">NLP</span><span class="project-tag">SQL</span><span class="project-tag">Python</span><span class="project-tag">FastAPI</span></div>
+        <h3 class="project-title">Plateforme de supervision temps réel des réseaux télécoms africains</h3>
+        <p class="project-desc">
+Conception et déploiement d'une architecture Big Data distribuée pour la supervision en temps réel de 521 antennes BTS dans 8 pays africains. Stack technique : Apache Kafka, Kafka Streams, Logstash, Elasticsearch, Kibana, Snowflake, FastAPI et Kubernetes. Pipeline complet de l'ingestion à la visualisation avec détection automatique d'anomalies réseau et calcul de scores de santé par antenne.</p>
+        <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">ElasticSearch</span><span class="project-tag">Kibana</span><span class="project-tag">FastAPI</span><span class="project-tag">Logstash</span><span class="project-tag">Kubernetes</span><span class="project-tag">Kafka</span><span class="project-tag">Snowflake</span><span class="project-tag">schema registry</span><span class="project-tag">Docker</span></div>
         <div class="project-actions">
           <a href="#" target="_blank" class="btn-voir-projet"><i class="fab fa-linkedin"></i> Voir le projet</a>
           <a href="https://github.com/enamainnocent4-crypto" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
@@ -213,13 +216,24 @@ Spécialisé dans les technologies Big Data modernes (Spark, Kafka, Airflow, Doc
       </div>
     </div>
 
-    <div class="project-card add-card">
-      <div class="add-icon"><i class="fas fa-plus"></i></div>
-      <p class="add-label">Projet à venir…<br><small style="color:var(--muted);font-size:.7rem;">Copiez un bloc project-card</small></p>
+    <div class="project-card reveal">
+      <div class="project-architecture">
+        <img src="" alt="banque de sang" id="arch-proj4"/>
+        <div class="arch-placeholder" id="ph-proj4"><i class="fas fa-diagram-project"></i><p>src="efejnjfenjf.png"</p></div>
+        <span class="arch-label">Architecture Web</span>
+      </div>
+      <div class="project-body">
+        <div class="project-icon">🔍</div>
+        <h3 class="project-title">Data Scraping &amp; Analyse du marché de l'emploi avec le site Hello work</h3>
+        <p class="project-desc">Pipeline de collecte automatisée d'offres d'emploi (BeautifulSoup + Selenium), nettoyage et analyse exploratoire — KPIs: salaire moyen par ville, répartition géographique.</p>
+        <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">BeautifulSoup</span><span class="project-tag">Selenium</span><span class="project-tag">Pandas</span></div>
+        <div class="project-actions">
+          <a href="#" target="_blank" class="btn-voir-projet"><i class="fab fa-linkedin"></i> Voir le projet</a>
+          <a href="https://github.com/enamainnocent4-crypto" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
     </div>
-  </div>
 </section>
-
 
 <section id="technologies">
   <div style="max-width:1100px;margin:0 auto;">
